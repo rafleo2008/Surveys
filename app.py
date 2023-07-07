@@ -23,6 +23,8 @@ app = Dash(prevent_initial_callbacks=True)
 app.title = "Procesamiento base CTG"
 app.description = "Descripción de prueba"
 
+server = app.server
+
 ## Layout
 
 ## Callbacks
